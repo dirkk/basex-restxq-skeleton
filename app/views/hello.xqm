@@ -1,8 +1,4 @@
-(:~
- : Copyright 2013 Dirk Kirsten
- :)
-
-module namespace _ = 'http://basex.org/restxq/skeleton';
+module namespace _ = 'http://basex.org/app/skeleton';
 
 (:~
  : Main entry page.
@@ -39,6 +35,7 @@ declare
             <li><a href="#/Welcome">Welcome</a></li>
             <li><a href="#/System">System Parameters</a></li>
             <li><a href="#/Form">Simple Form</a></li>
+            <li><a href="#/User">User Section</a></li>
           </ul>
         </div>
         <div class="col-xs-9">
@@ -80,28 +77,34 @@ declare
   function _:form()
 {
   <div ng-controller="FormCtrl">
-    <form name="form" role="form" ng-submit="save()">
+    <form name="form" role="form" ng-submit="add()">
       <div class="form-group">
-        <label for="name">Your name</label>
-        <input type="text" class="form-control" id="name" placeholder="Your name" ng-model="user.name" />
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Name" ng-model="user.name" />
       </div>
       <div class="form-group">
-        <label for="age">Your age</label>
-        <input type="number" class="form-control" id="age" ng-model="user.age" />
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Password" ng-model="user.password" />
       </div>
-      <button type="submit" class="btn btn-primary">Save</button>
-      <div class="label label-success" ng-show="form.$pristine &amp;&amp; saved">
-        <span class="glyphicon glyphicon-ok" /> Saved
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" class="form-control" id="age" placeholder="Age" ng-model="user.age" />
       </div>
+      <button type="submit" class="btn btn-primary">
+        <span class="glyphicon glyphicon-plus" /> Add
+      </button>
     </form>
     <p />
-    <div class="jumbotron">
+    <div class="jumbotron" ng-repeat="user in users | orderBy:'age'">
       <p>
-        Your name: {{{{user.name}}}}
+        Name: {{{{user.name}}}}
       </p>
       <p>
-        Your age: {{{{user.age}}}}
+        Age: {{{{user.age}}}}
       </p>
+      <button ng-click="delete()" class="btn btn-primary">
+        <span class="glyphicon glyphicon-remove" /> Delete
+      </button>
     </div>
   </div>
 };
@@ -133,4 +136,38 @@ declare
       }
     </table>
   )
+};
+
+declare
+  %restxq:GET
+  %restxq:path("/views/user")
+  %output:method("xhtml")
+  %output:html-version("5.0")
+  function _:user()
+{
+  <div ng-controller="UserCtrl">
+    <form ng-show="!loggedIn" name="form" role="form" ng-submit="login()">
+      <div class="jumbotron">
+        <b>Hint:</b> Use the user login data you can add and delete at "Simple Form"
+      </div>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Name" ng-model="user.name" />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Password" ng-model="user.password" />
+      </div>
+      <button type="submit" class="btn btn-primary">
+        Login
+      </button>
+    </form>
+    <div ng-show="loggedIn">
+      <h1><span class="glyphicon glyphicon-ok" /> Logged In</h1>
+      <p>Log-In time: {{{{time | date:'medium'}}}}</p>
+      <button class="btn btn-default" ng-click="logout()">
+        Logout
+      </button>
+    </div>
+  </div>
 };

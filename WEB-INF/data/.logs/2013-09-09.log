@@ -1056,3 +1056,923 @@
 12:45:26.871	127.0.0.1:55157	admin	404	No function found that matches the request.	2.26 ms
 12:45:30.050	127.0.0.1:55157	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
 12:45:30.052	127.0.0.1:55157	admin	404	No function found that matches the request.	1.38 ms
+14:52:34.124	SERVER	admin	OK	Server was stopped (port: 1984)
+14:52:39.592	SERVER	admin	OK	Server was started (port: 1984)
+14:52:52.062	127.0.0.1:55473	admin	REQUEST	[GET] http://localhost:8984/
+14:52:52.188	127.0.0.1:55473	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 62/22: [XPST0003] Incomplete expression.	126.63 ms
+14:52:52.313	127.0.0.1:55473	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+14:52:52.319	127.0.0.1:55473	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 62/22: [XPST0003] Incomplete expression.	6.31 ms
+14:53:07.990	127.0.0.1:55473	admin	REQUEST	[GET] http://localhost:8984/
+14:53:07.997	127.0.0.1:55473	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 62/22: [XPST0003] Incomplete expression.	6.84 ms
+14:53:08.120	127.0.0.1:55473	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+14:53:08.126	127.0.0.1:55473	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 62/22: [XPST0003] Incomplete expression.	5.82 ms
+14:53:39.211	127.0.0.1:55477	admin	REQUEST	[GET] http://localhost:8984/
+14:53:39.219	127.0.0.1:55477	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 75/84: [XPST0008] Undefined variable $user.	8.44 ms
+14:53:39.335	127.0.0.1:55477	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+14:53:39.342	127.0.0.1:55477	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 75/84: [XPST0008] Undefined variable $user.	7.36 ms
+14:53:58.419	127.0.0.1:55477	admin	REQUEST	[GET] http://localhost:8984/
+14:53:58.429	127.0.0.1:55477	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/app/views/hello.xqm, 17/7: [XPST0003] Expecting '}', found ':'.	11.04 ms
+14:53:58.551	127.0.0.1:55477	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+14:53:58.557	127.0.0.1:55477	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/app/views/hello.xqm, 17/7: [XPST0003] Expecting '}', found ':'.	6.03 ms
+14:54:19.473	127.0.0.1:55477	admin	REQUEST	[GET] http://localhost:8984/
+14:54:19.483	127.0.0.1:55477	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/app/views/hello.xqm, 18/3: [XUST0001] Let expression: no updating expression allowed.	10.98 ms
+14:54:19.602	127.0.0.1:55477	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+14:54:19.613	127.0.0.1:55477	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/app/views/hello.xqm, 18/3: [XUST0001] Let expression: no updating expression allowed.	10.28 ms
+14:54:58.510	127.0.0.1:55478	admin	REQUEST	[GET] http://localhost:8984/
+14:54:58.517	127.0.0.1:55478	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/app/views/hello.xqm, 15/12: [XUST0001] StaticFunc expression: no updating expression allowed.	7.05 ms
+14:54:58.637	127.0.0.1:55478	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+14:54:58.645	127.0.0.1:55478	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/app/views/hello.xqm, 15/12: [XUST0001] StaticFunc expression: no updating expression allowed.	7.41 ms
+14:56:02.119	127.0.0.1:55479	admin	REQUEST	[GET] http://localhost:8984/
+14:56:02.144	127.0.0.1:55479	admin	200		25.61 ms
+14:56:02.337	127.0.0.1:55479	admin	REQUEST	[GET] http://localhost:8984/views/welcome
+14:56:02.345	127.0.0.1:55479	admin	200		8.79 ms
+14:56:02.396	127.0.0.1:55479	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+14:56:02.401	127.0.0.1:55479	admin	404	No function found that matches the request.	5.55 ms
+14:56:04.854	127.0.0.1:55479	admin	REQUEST	[GET] http://localhost:8984/views/form
+14:56:04.868	127.0.0.1:55479	admin	200		14.6 ms
+14:56:04.872	127.0.0.1:55479	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+14:56:04.878	127.0.0.1:55479	admin	404	No function found that matches the request.	5.62 ms
+14:56:04.892	127.0.0.1:55479	admin	REQUEST	[GET] http://localhost:8984/api/name
+14:56:04.897	127.0.0.1:55479	admin	404	No function found that matches the request.	4.96 ms
+14:56:31.670	127.0.0.1:55479	admin	REQUEST	[GET] http://localhost:8984/
+14:56:31.683	127.0.0.1:55479	admin	200		13.19 ms
+14:56:31.878	127.0.0.1:55479	admin	REQUEST	[GET] http://localhost:8984/views/form
+14:56:31.886	127.0.0.1:55479	admin	200		8.34 ms
+14:56:31.944	127.0.0.1:55479	admin	REQUEST	[GET] http://localhost:8984/api/users
+14:56:31.954	127.0.0.1:55479	admin	200		10.39 ms
+14:56:31.970	127.0.0.1:55479	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+14:56:31.975	127.0.0.1:55479	admin	404	No function found that matches the request.	4.8 ms
+14:58:35.060	127.0.0.1:55486	admin	REQUEST	[GET] http://localhost:8984/
+14:58:35.070	127.0.0.1:55486	admin	200		10.66 ms
+14:58:35.275	127.0.0.1:55486	admin	REQUEST	[GET] http://localhost:8984/views/form
+14:58:35.284	127.0.0.1:55486	admin	200		9.06 ms
+14:58:35.327	127.0.0.1:55486	admin	REQUEST	[GET] http://localhost:8984/api/users
+14:58:35.353	127.0.0.1:55488	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+14:58:35.359	127.0.0.1:55488	admin	404	No function found that matches the request.	5.91 ms
+14:58:35.363	127.0.0.1:55486	admin	200		36.71 ms
+15:08:58.385	127.0.0.1:55689	admin	REQUEST	[GET] http://localhost:8984/
+15:08:58.397	127.0.0.1:55689	admin	200		12.72 ms
+15:08:58.588	127.0.0.1:55689	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:08:58.595	127.0.0.1:55689	admin	200		7.11 ms
+15:08:58.643	127.0.0.1:55689	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:08:58.666	127.0.0.1:55689	admin	200		23.16 ms
+15:08:58.677	127.0.0.1:55689	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:08:58.683	127.0.0.1:55689	admin	404	No function found that matches the request.	5.76 ms
+15:09:36.928	127.0.0.1:55695	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:09:36.955	127.0.0.1:55695	admin	200		27.01 ms
+15:09:41.120	127.0.0.1:55695	admin	REQUEST	[GET] http://localhost:8984/
+15:09:41.129	127.0.0.1:55695	admin	200		9.14 ms
+15:09:41.324	127.0.0.1:55695	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:09:41.331	127.0.0.1:55695	admin	200		7.83 ms
+15:09:41.383	127.0.0.1:55695	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:09:41.391	127.0.0.1:55695	admin	200		8.75 ms
+15:09:41.414	127.0.0.1:55695	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:09:41.418	127.0.0.1:55695	admin	404	No function found that matches the request.	4.0 ms
+15:11:22.040	127.0.0.1:55706	admin	REQUEST	[GET] http://localhost:8984/
+15:11:22.050	127.0.0.1:55706	admin	200		10.6 ms
+15:11:22.243	127.0.0.1:55706	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:11:22.250	127.0.0.1:55706	admin	200		7.21 ms
+15:11:22.297	127.0.0.1:55706	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:11:22.305	127.0.0.1:55706	admin	200		7.45 ms
+15:11:22.321	127.0.0.1:55706	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:11:22.324	127.0.0.1:55706	admin	404	No function found that matches the request.	3.83 ms
+15:12:00.228	127.0.0.1:55711	admin	REQUEST	[GET] http://localhost:8984/
+15:12:00.236	127.0.0.1:55711	admin	200		7.43 ms
+15:12:00.423	127.0.0.1:55711	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:12:00.431	127.0.0.1:55711	admin	200		7.8 ms
+15:12:00.475	127.0.0.1:55711	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:12:00.482	127.0.0.1:55711	admin	200		6.72 ms
+15:12:00.502	127.0.0.1:55711	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:12:00.506	127.0.0.1:55711	admin	404	No function found that matches the request.	3.64 ms
+15:12:07.115	127.0.0.1:55711	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:12:07.127	127.0.0.1:55711	admin	200		12.29 ms
+15:12:09.302	127.0.0.1:55711	admin	REQUEST	[GET] http://localhost:8984/
+15:12:09.312	127.0.0.1:55711	admin	200		11.14 ms
+15:12:09.504	127.0.0.1:55711	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:12:09.511	127.0.0.1:55711	admin	200		6.66 ms
+15:12:09.560	127.0.0.1:55711	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:12:09.568	127.0.0.1:55711	admin	200		8.42 ms
+15:12:09.591	127.0.0.1:55711	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:12:09.594	127.0.0.1:55711	admin	404	No function found that matches the request.	3.5 ms
+15:12:21.660	127.0.0.1:55711	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:12:21.669	127.0.0.1:55711	admin	200		9.45 ms
+15:13:00.900	127.0.0.1:55717	admin	REQUEST	[GET] http://localhost:8984/api/user/e763ebf4-e9d0-4ff5-9953-077f91fe9716
+15:13:00.906	127.0.0.1:55717	admin	200		6.42 ms
+15:13:01.012	127.0.0.1:55717	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:13:01.016	127.0.0.1:55717	admin	404	No function found that matches the request.	3.42 ms
+15:13:49.841	127.0.0.1:55719	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:13:49.849	127.0.0.1:55719	admin	200		8.55 ms
+15:14:02.112	127.0.0.1:55719	admin	REQUEST	[GET] http://localhost:8984/
+15:14:02.119	127.0.0.1:55719	admin	200		7.32 ms
+15:14:02.305	127.0.0.1:55719	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:14:02.313	127.0.0.1:55719	admin	200		8.2 ms
+15:14:02.355	127.0.0.1:55719	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:14:02.361	127.0.0.1:55719	admin	200		6.76 ms
+15:14:02.379	127.0.0.1:55719	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:14:02.384	127.0.0.1:55719	admin	404	No function found that matches the request.	5.25 ms
+15:19:41.028	127.0.0.1:55805	admin	REQUEST	[GET] http://localhost:8984/
+15:19:41.038	127.0.0.1:55805	admin	200		9.61 ms
+15:19:41.222	127.0.0.1:55805	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:19:41.229	127.0.0.1:55805	admin	200		6.83 ms
+15:19:41.273	127.0.0.1:55805	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:19:41.282	127.0.0.1:55805	admin	200		9.12 ms
+15:19:41.300	127.0.0.1:55805	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:19:41.304	127.0.0.1:55805	admin	404	No function found that matches the request.	3.86 ms
+15:20:35.450	127.0.0.1:55815	admin	REQUEST	[GET] http://localhost:8984/
+15:20:35.459	127.0.0.1:55815	admin	200		8.83 ms
+15:20:35.644	127.0.0.1:55815	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:20:35.650	127.0.0.1:55815	admin	200		5.72 ms
+15:20:35.700	127.0.0.1:55815	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:20:35.709	127.0.0.1:55815	admin	200		9.19 ms
+15:20:35.727	127.0.0.1:55815	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:20:35.730	127.0.0.1:55815	admin	404	No function found that matches the request.	2.99 ms
+15:21:45.292	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/
+15:21:45.298	127.0.0.1:55822	admin	200		5.7 ms
+15:21:45.524	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:21:45.527	127.0.0.1:55822	admin	404	No function found that matches the request.	2.29 ms
+15:22:07.791	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/
+15:22:07.797	127.0.0.1:55822	admin	200		6.1 ms
+15:22:07.981	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:22:07.986	127.0.0.1:55822	admin	200		4.92 ms
+15:22:08.040	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:22:08.046	127.0.0.1:55822	admin	200		6.71 ms
+15:22:08.068	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:22:08.070	127.0.0.1:55822	admin	404	No function found that matches the request.	2.55 ms
+15:22:11.836	127.0.0.1:55822	admin	REQUEST	[DELETE] http://localhost:8984/api/user/e763ebf4-e9d0-4ff5-9953-077f91fe9716
+15:22:11.843	127.0.0.1:55822	admin	200		7.79 ms
+15:22:17.176	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/
+15:22:17.185	127.0.0.1:55822	admin	200		9.75 ms
+15:22:17.368	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:22:17.373	127.0.0.1:55822	admin	200		5.07 ms
+15:22:17.424	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:22:17.431	127.0.0.1:55822	admin	200		7.51 ms
+15:22:17.454	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:22:17.457	127.0.0.1:55822	admin	404	No function found that matches the request.	2.66 ms
+15:22:22.209	127.0.0.1:55822	admin	REQUEST	[DELETE] http://localhost:8984/api/user/6e60bdff-f3d2-42c5-b64c-3406bc1e0373
+15:22:22.215	127.0.0.1:55822	admin	200		6.0 ms
+15:22:24.486	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/
+15:22:24.492	127.0.0.1:55822	admin	200		7.39 ms
+15:22:24.683	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:22:24.689	127.0.0.1:55822	admin	200		5.82 ms
+15:22:24.739	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:22:24.744	127.0.0.1:55822	admin	200		5.8 ms
+15:22:24.769	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:22:24.771	127.0.0.1:55822	admin	404	No function found that matches the request.	2.49 ms
+15:22:29.225	127.0.0.1:55822	admin	REQUEST	[DELETE] http://localhost:8984/api/user/20a6ded9-c1f6-409d-9ada-959ba1a121f3
+15:22:29.233	127.0.0.1:55822	admin	200		8.36 ms
+15:22:30.636	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/
+15:22:30.645	127.0.0.1:55822	admin	200		8.9 ms
+15:22:30.831	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:22:30.835	127.0.0.1:55822	admin	200		4.46 ms
+15:22:30.880	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:22:30.887	127.0.0.1:55822	admin	200		6.16 ms
+15:22:30.908	127.0.0.1:55822	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:22:30.910	127.0.0.1:55822	admin	404	No function found that matches the request.	2.43 ms
+15:23:49.120	127.0.0.1:55865	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:23:49.127	127.0.0.1:55865	admin	200		7.0 ms
+15:23:56.872	127.0.0.1:55865	admin	REQUEST	[GET] http://localhost:8984/
+15:23:56.879	127.0.0.1:55865	admin	200		6.36 ms
+15:23:57.064	127.0.0.1:55865	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:23:57.069	127.0.0.1:55865	admin	200		4.39 ms
+15:23:57.123	127.0.0.1:55865	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:23:57.130	127.0.0.1:55865	admin	200		6.76 ms
+15:23:57.156	127.0.0.1:55865	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:23:57.159	127.0.0.1:55865	admin	404	No function found that matches the request.	3.38 ms
+15:24:37.553	127.0.0.1:55871	admin	REQUEST	[DELETE] http://localhost:8984/api/user/3f264cbc-eb4c-4dec-8175-76bc2630929c
+15:24:37.559	127.0.0.1:55871	admin	200		6.42 ms
+15:25:28.970	127.0.0.1:55872	admin	REQUEST	[GET] http://localhost:8984/
+15:25:28.979	127.0.0.1:55872	admin	200		9.11 ms
+15:25:29.243	127.0.0.1:55872	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:25:29.247	127.0.0.1:55872	admin	200		4.03 ms
+15:25:29.363	127.0.0.1:55872	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:25:29.369	127.0.0.1:55872	admin	200		6.58 ms
+15:25:29.386	127.0.0.1:55872	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:25:29.388	127.0.0.1:55872	admin	404	No function found that matches the request.	2.63 ms
+15:25:33.731	127.0.0.1:55872	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:25:33.737	127.0.0.1:55872	admin	200		6.78 ms
+15:25:34.685	127.0.0.1:55872	admin	REQUEST	[GET] http://localhost:8984/
+15:25:34.691	127.0.0.1:55872	admin	200		6.01 ms
+15:25:34.938	127.0.0.1:55872	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:25:34.942	127.0.0.1:55872	admin	200		4.0 ms
+15:25:35.056	127.0.0.1:55872	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:25:35.062	127.0.0.1:55872	admin	200		5.81 ms
+15:25:35.079	127.0.0.1:55872	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:25:35.081	127.0.0.1:55872	admin	404	No function found that matches the request.	2.16 ms
+15:25:46.679	127.0.0.1:55872	admin	REQUEST	[DELETE] http://localhost:8984/api/user/8a0b7e3a-7693-41ca-ad7d-4bafbd9cfd8a
+15:25:46.686	127.0.0.1:55872	admin	200		7.16 ms
+15:28:07.399	127.0.0.1:55882	admin	REQUEST	[GET] http://localhost:8984/
+15:28:07.406	127.0.0.1:55882	admin	200		6.68 ms
+15:28:07.570	127.0.0.1:55882	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:28:07.575	127.0.0.1:55882	admin	200		5.14 ms
+15:28:07.619	127.0.0.1:55882	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:28:07.626	127.0.0.1:55882	admin	200		7.14 ms
+15:28:07.645	127.0.0.1:55882	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:28:07.647	127.0.0.1:55882	admin	404	No function found that matches the request.	2.49 ms
+15:28:34.752	127.0.0.1:55882	admin	REQUEST	[GET] http://localhost:8984/
+15:28:34.757	127.0.0.1:55882	admin	200		5.84 ms
+15:28:34.937	127.0.0.1:55882	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:28:34.942	127.0.0.1:55882	admin	200		5.16 ms
+15:28:34.983	127.0.0.1:55882	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:28:34.988	127.0.0.1:55882	admin	200		4.84 ms
+15:28:35.006	127.0.0.1:55882	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:28:35.009	127.0.0.1:55882	admin	404	No function found that matches the request.	3.12 ms
+15:28:46.009	127.0.0.1:55882	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:28:46.016	127.0.0.1:55882	admin	200		6.97 ms
+15:29:34.673	127.0.0.1:55890	admin	REQUEST	[GET] http://localhost:8984/
+15:29:34.682	127.0.0.1:55890	admin	200		8.93 ms
+15:29:34.851	127.0.0.1:55890	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:29:34.855	127.0.0.1:55890	admin	200		4.17 ms
+15:29:34.892	127.0.0.1:55890	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:29:34.900	127.0.0.1:55890	admin	200		7.91 ms
+15:29:34.917	127.0.0.1:55890	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:29:34.919	127.0.0.1:55890	admin	404	No function found that matches the request.	2.13 ms
+15:29:38.686	127.0.0.1:55890	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:29:38.694	127.0.0.1:55890	admin	200		7.81 ms
+15:31:10.274	127.0.0.1:55899	admin	REQUEST	[GET] http://localhost:8984/
+15:31:10.280	127.0.0.1:55899	admin	200		6.34 ms
+15:31:10.453	127.0.0.1:55899	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:31:10.456	127.0.0.1:55899	admin	200		3.82 ms
+15:31:10.494	127.0.0.1:55899	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:31:10.499	127.0.0.1:55899	admin	200		5.52 ms
+15:31:10.516	127.0.0.1:55899	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:31:10.519	127.0.0.1:55899	admin	404	No function found that matches the request.	3.16 ms
+15:31:14.589	127.0.0.1:55899	admin	REQUEST	[DELETE] http://localhost:8984/api/user/5f2aa184-1d18-49c2-b360-d88e7ecd9381
+15:31:14.593	127.0.0.1:55899	admin	200		4.92 ms
+15:31:15.917	127.0.0.1:55899	admin	REQUEST	[DELETE] http://localhost:8984/api/user/37e71c8f-380b-4633-b500-07246688ed5e
+15:31:15.923	127.0.0.1:55899	admin	200		5.62 ms
+15:31:20.547	127.0.0.1:55899	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:31:20.553	127.0.0.1:55899	admin	400	[BXJS0002] JSON serialization: Element <user> is typed as "string" and cannot be nested.	6.01 ms
+15:32:17.426	127.0.0.1:55906	admin	REQUEST	[GET] http://localhost:8984/
+15:32:17.432	127.0.0.1:55906	admin	200		5.92 ms
+15:32:17.601	127.0.0.1:55906	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:32:17.605	127.0.0.1:55906	admin	200		3.79 ms
+15:32:17.644	127.0.0.1:55906	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:32:17.650	127.0.0.1:55906	admin	200		5.74 ms
+15:32:17.666	127.0.0.1:55906	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:32:17.668	127.0.0.1:55906	admin	404	No function found that matches the request.	2.01 ms
+15:32:21.044	127.0.0.1:55906	admin	REQUEST	[DELETE] http://localhost:8984/api/user/f398fc5d-4907-47fd-ae03-3b65e5b8e3e6
+15:32:21.050	127.0.0.1:55906	admin	200		5.38 ms
+15:32:25.449	127.0.0.1:55906	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:32:25.456	127.0.0.1:55906	admin	200		6.88 ms
+15:32:33.462	127.0.0.1:55906	admin	REQUEST	[DELETE] http://localhost:8984/api/user/f94cfb69-ffa6-4db4-a630-c5de369eaa4b
+15:32:33.468	127.0.0.1:55906	admin	200		5.73 ms
+15:32:41.653	127.0.0.1:55906	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:32:41.659	127.0.0.1:55906	admin	200		6.99 ms
+15:32:42.931	127.0.0.1:55906	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:32:42.939	127.0.0.1:55906	admin	200		8.03 ms
+15:32:45.365	127.0.0.1:55906	admin	REQUEST	[DELETE] http://localhost:8984/api/user/839bf559-d9c4-469c-b987-9ef2ac0b9bce
+15:32:45.370	127.0.0.1:55906	admin	200		5.36 ms
+15:32:46.919	127.0.0.1:55906	admin	REQUEST	[DELETE] http://localhost:8984/api/user/2692466f-b5a8-4b2f-bc22-1c29c3c8a65f
+15:32:46.925	127.0.0.1:55906	admin	200		5.76 ms
+15:32:48.494	127.0.0.1:55906	admin	REQUEST	[GET] http://localhost:8984/
+15:32:48.499	127.0.0.1:55906	admin	200		5.27 ms
+15:32:48.644	127.0.0.1:55906	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:32:48.648	127.0.0.1:55906	admin	200		3.91 ms
+15:32:48.683	127.0.0.1:55906	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:32:48.687	127.0.0.1:55906	admin	200		4.31 ms
+15:32:48.697	127.0.0.1:55906	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:32:48.700	127.0.0.1:55906	admin	404	No function found that matches the request.	2.62 ms
+15:32:56.001	127.0.0.1:55935	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:32:56.007	127.0.0.1:55935	admin	200		6.12 ms
+15:37:00.560	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/
+15:37:00.561	127.0.0.1:55959	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 41/7: [XPST0003] Expecting '}', found '{'.	2.02 ms
+15:37:00.618	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:37:00.620	127.0.0.1:55959	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 41/7: [XPST0003] Expecting '}', found '{'.	1.71 ms
+15:37:13.612	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/
+15:37:13.620	127.0.0.1:55959	admin	200		8.27 ms
+15:37:13.765	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:37:13.772	127.0.0.1:55959	admin	200		6.34 ms
+15:37:13.808	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:37:13.813	127.0.0.1:55959	admin	200		5.95 ms
+15:37:13.823	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:37:13.826	127.0.0.1:55959	admin	404	No function found that matches the request.	2.96 ms
+15:37:17.181	127.0.0.1:55959	admin	REQUEST	[DELETE] http://localhost:8984/api/user/1e97882b-ce6a-4d22-8787-b71a416ac886
+15:37:17.187	127.0.0.1:55959	admin	200		6.11 ms
+15:37:17.908	127.0.0.1:55959	admin	REQUEST	[DELETE] http://localhost:8984/api/user/e6449995-a0c9-40eb-9adb-bd8a9ef53301
+15:37:17.914	127.0.0.1:55959	admin	200		6.11 ms
+15:37:18.761	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/
+15:37:18.767	127.0.0.1:55959	admin	200		6.93 ms
+15:37:18.884	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:37:18.888	127.0.0.1:55959	admin	200		4.13 ms
+15:37:18.916	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:37:18.920	127.0.0.1:55959	admin	200		4.18 ms
+15:37:18.928	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:37:18.930	127.0.0.1:55959	admin	404	No function found that matches the request.	2.53 ms
+15:37:24.996	127.0.0.1:55959	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:37:25.019	127.0.0.1:55959	admin	200		23.85 ms
+15:37:28.846	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/
+15:37:28.853	127.0.0.1:55959	admin	200		6.8 ms
+15:37:29.048	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:37:29.053	127.0.0.1:55959	admin	200		5.2 ms
+15:37:29.107	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:37:29.112	127.0.0.1:55959	admin	200		5.58 ms
+15:37:29.146	127.0.0.1:55959	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:37:29.148	127.0.0.1:55959	admin	404	No function found that matches the request.	2.22 ms
+15:38:20.141	127.0.0.1:55968	admin	REQUEST	[GET] http://localhost:8984/
+15:38:20.147	127.0.0.1:55968	admin	200		6.3 ms
+15:38:20.333	127.0.0.1:55968	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:38:20.338	127.0.0.1:55968	admin	200		5.02 ms
+15:38:20.387	127.0.0.1:55968	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:38:20.391	127.0.0.1:55968	admin	200		4.77 ms
+15:38:20.414	127.0.0.1:55968	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:38:20.415	127.0.0.1:55968	admin	404	No function found that matches the request.	2.1 ms
+15:39:32.745	127.0.0.1:55973	admin	REQUEST	[GET] http://localhost:8984/
+15:39:32.754	127.0.0.1:55973	admin	200		9.13 ms
+15:39:32.935	127.0.0.1:55973	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:39:32.939	127.0.0.1:55973	admin	200		4.02 ms
+15:39:32.986	127.0.0.1:55973	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:39:32.994	127.0.0.1:55973	admin	200		7.6 ms
+15:39:33.013	127.0.0.1:55973	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:39:33.016	127.0.0.1:55973	admin	404	No function found that matches the request.	2.84 ms
+15:39:41.171	127.0.0.1:55973	admin	REQUEST	[DELETE] http://localhost:8984/api/user/2b7e6adb-fd67-406a-a273-fa01649053ef
+15:39:41.176	127.0.0.1:55973	admin	200		4.85 ms
+15:39:42.398	127.0.0.1:55973	admin	REQUEST	[GET] http://localhost:8984/
+15:39:42.402	127.0.0.1:55973	admin	200		4.41 ms
+15:39:42.581	127.0.0.1:55973	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:39:42.585	127.0.0.1:55973	admin	200		4.17 ms
+15:39:42.638	127.0.0.1:55973	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:39:42.643	127.0.0.1:55973	admin	200		4.46 ms
+15:39:42.666	127.0.0.1:55973	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:39:42.668	127.0.0.1:55973	admin	404	No function found that matches the request.	1.95 ms
+15:39:49.211	127.0.0.1:55973	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:39:49.219	127.0.0.1:55973	admin	200		8.04 ms
+15:41:02.438	127.0.0.1:55978	admin	REQUEST	[GET] http://localhost:8984/
+15:41:02.445	127.0.0.1:55978	admin	200		6.89 ms
+15:41:02.626	127.0.0.1:55978	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:41:02.629	127.0.0.1:55978	admin	200		3.68 ms
+15:41:02.677	127.0.0.1:55978	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:41:02.682	127.0.0.1:55978	admin	200		5.1 ms
+15:41:02.701	127.0.0.1:55978	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:41:02.703	127.0.0.1:55978	admin	404	No function found that matches the request.	2.51 ms
+15:41:11.438	127.0.0.1:55978	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:41:11.445	127.0.0.1:55978	admin	200		6.93 ms
+15:41:44.924	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/
+15:41:44.931	127.0.0.1:55987	admin	200		7.63 ms
+15:41:45.073	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:41:45.077	127.0.0.1:55987	admin	200		3.63 ms
+15:41:45.115	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:41:45.121	127.0.0.1:55987	admin	200		5.44 ms
+15:41:45.130	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:41:45.132	127.0.0.1:55987	admin	404	No function found that matches the request.	1.9 ms
+15:41:46.425	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/
+15:41:46.431	127.0.0.1:55987	admin	200		6.0 ms
+15:41:46.543	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:41:46.547	127.0.0.1:55987	admin	200		3.84 ms
+15:41:46.572	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:41:46.578	127.0.0.1:55987	admin	200		6.44 ms
+15:41:46.591	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:41:46.593	127.0.0.1:55987	admin	404	No function found that matches the request.	2.04 ms
+15:41:56.400	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/
+15:41:56.406	127.0.0.1:55987	admin	200		6.17 ms
+15:41:56.584	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:41:56.589	127.0.0.1:55987	admin	200		4.77 ms
+15:41:56.639	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:41:56.645	127.0.0.1:55987	admin	200		5.98 ms
+15:41:56.664	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:41:56.666	127.0.0.1:55987	admin	404	No function found that matches the request.	2.1 ms
+15:42:10.320	127.0.0.1:55987	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:42:10.326	127.0.0.1:55987	admin	200		6.21 ms
+15:42:15.847	127.0.0.1:55987	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:42:15.853	127.0.0.1:55987	admin	200		6.46 ms
+15:42:19.284	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/
+15:42:19.292	127.0.0.1:55987	admin	200		7.7 ms
+15:42:19.441	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:42:19.446	127.0.0.1:55987	admin	200		4.85 ms
+15:42:19.477	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:42:19.485	127.0.0.1:55987	admin	200		7.92 ms
+15:42:19.491	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:42:19.494	127.0.0.1:55987	admin	404	No function found that matches the request.	2.44 ms
+15:42:25.038	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/
+15:42:25.043	127.0.0.1:55987	admin	200		4.45 ms
+15:42:25.219	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:42:25.223	127.0.0.1:55987	admin	200		4.43 ms
+15:42:25.272	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:42:25.280	127.0.0.1:55987	admin	200		8.56 ms
+15:42:25.298	127.0.0.1:55987	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:42:25.300	127.0.0.1:55987	admin	404	No function found that matches the request.	1.98 ms
+15:43:14.061	127.0.0.1:56014	admin	REQUEST	[GET] http://localhost:8984/
+15:43:14.067	127.0.0.1:56014	admin	200		6.2 ms
+15:43:14.256	127.0.0.1:56014	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:43:14.262	127.0.0.1:56014	admin	200		5.84 ms
+15:43:14.309	127.0.0.1:56014	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:43:14.316	127.0.0.1:56014	admin	200		6.97 ms
+15:43:14.333	127.0.0.1:56014	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:43:14.336	127.0.0.1:56014	admin	404	No function found that matches the request.	3.06 ms
+15:43:55.838	127.0.0.1:56019	admin	REQUEST	[GET] http://localhost:8984/
+15:43:55.843	127.0.0.1:56019	admin	200		5.03 ms
+15:43:56.036	127.0.0.1:56019	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:43:56.040	127.0.0.1:56019	admin	200		5.01 ms
+15:43:56.089	127.0.0.1:56019	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:43:56.097	127.0.0.1:56019	admin	200		8.37 ms
+15:43:56.112	127.0.0.1:56019	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:43:56.115	127.0.0.1:56019	admin	404	No function found that matches the request.	2.76 ms
+15:44:40.501	127.0.0.1:56026	admin	REQUEST	[GET] http://localhost:8984/
+15:44:40.507	127.0.0.1:56026	admin	200		5.81 ms
+15:44:40.695	127.0.0.1:56026	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:44:40.699	127.0.0.1:56026	admin	200		3.81 ms
+15:44:40.747	127.0.0.1:56026	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:44:40.755	127.0.0.1:56026	admin	200		8.07 ms
+15:44:40.772	127.0.0.1:56026	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:44:40.775	127.0.0.1:56026	admin	404	No function found that matches the request.	3.07 ms
+15:44:52.319	127.0.0.1:56026	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:44:52.325	127.0.0.1:56026	admin	200		6.57 ms
+15:45:00.529	127.0.0.1:56026	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:45:00.537	127.0.0.1:56026	admin	200		7.9 ms
+15:45:04.957	127.0.0.1:56026	admin	REQUEST	[DELETE] http://localhost:8984/api/user/9cabfae9-eb24-40af-8111-929f6932c379
+15:45:04.962	127.0.0.1:56026	admin	200		5.0 ms
+15:45:06.793	127.0.0.1:56026	admin	REQUEST	[DELETE] http://localhost:8984/api/user/9cabfae9-eb24-40af-8111-929f6932c379
+15:45:06.797	127.0.0.1:56026	admin	200		4.22 ms
+15:45:07.964	127.0.0.1:56026	admin	REQUEST	[DELETE] http://localhost:8984/api/user/7302ec70-e827-4ac7-9ce3-4abe5f2249a7
+15:45:07.969	127.0.0.1:56026	admin	200		5.29 ms
+15:45:12.422	127.0.0.1:56026	admin	REQUEST	[DELETE] http://localhost:8984/api/user/9cabfae9-eb24-40af-8111-929f6932c379
+15:45:12.428	127.0.0.1:56026	admin	200		6.42 ms
+15:45:42.161	127.0.0.1:56026	admin	REQUEST	[DELETE] http://localhost:8984/api/user/9cabfae9-eb24-40af-8111-929f6932c379
+15:45:42.166	127.0.0.1:56026	admin	200		5.69 ms
+15:45:52.838	127.0.0.1:56026	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:45:52.846	127.0.0.1:56026	admin	200		8.19 ms
+15:45:55.386	127.0.0.1:56026	admin	REQUEST	[DELETE] http://localhost:8984/api/user/67f324ff-7a17-4985-89c7-8f477afb20fb
+15:45:55.391	127.0.0.1:56026	admin	200		5.51 ms
+15:45:59.469	127.0.0.1:56026	admin	REQUEST	[DELETE] http://localhost:8984/api/user/67f324ff-7a17-4985-89c7-8f477afb20fb
+15:45:59.474	127.0.0.1:56026	admin	200		5.05 ms
+15:46:04.257	127.0.0.1:56026	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:46:04.266	127.0.0.1:56026	admin	200		8.99 ms
+15:46:12.175	127.0.0.1:56026	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:46:12.182	127.0.0.1:56026	admin	200		7.19 ms
+15:46:16.486	127.0.0.1:56026	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:46:16.494	127.0.0.1:56026	admin	200		7.85 ms
+15:46:21.680	127.0.0.1:56026	admin	REQUEST	[DELETE] http://localhost:8984/api/user/516590e8-7896-4d44-86be-f72f8ad1c9fa
+15:46:21.685	127.0.0.1:56026	admin	200		4.92 ms
+15:46:37.677	127.0.0.1:56026	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:46:37.683	127.0.0.1:56026	admin	200		6.09 ms
+15:46:42.363	127.0.0.1:56026	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:46:42.369	127.0.0.1:56026	admin	200		6.31 ms
+15:46:47.690	127.0.0.1:56026	admin	REQUEST	[DELETE] http://localhost:8984/api/user/516590e8-7896-4d44-86be-f72f8ad1c9fa
+15:46:47.694	127.0.0.1:56026	admin	200		4.9 ms
+15:46:54.812	127.0.0.1:56026	admin	REQUEST	[DELETE] http://localhost:8984/api/user/f3dfb58a-2070-4a09-8c8d-18f485334e8c
+15:46:54.818	127.0.0.1:56026	admin	200		5.37 ms
+15:58:29.920	127.0.0.1:56154	admin	REQUEST	[GET] http://localhost:8984/
+15:58:29.925	127.0.0.1:56154	admin	200		5.36 ms
+15:58:30.100	127.0.0.1:56154	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:58:30.104	127.0.0.1:56154	admin	200		3.86 ms
+15:58:30.148	127.0.0.1:56154	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:58:30.158	127.0.0.1:56154	admin	200		10.3 ms
+15:58:30.173	127.0.0.1:56154	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:58:30.176	127.0.0.1:56154	admin	404	No function found that matches the request.	3.1 ms
+15:58:34.109	127.0.0.1:56154	admin	REQUEST	[DELETE] http://localhost:8984/api/user/1f18cc60-1ae1-4ef2-9960-4d1b95f8c3f0
+15:58:34.114	127.0.0.1:56154	admin	200		6.02 ms
+15:58:39.509	127.0.0.1:56154	admin	REQUEST	[DELETE] http://localhost:8984/api/user/3e2c21ee-c2a6-4463-920f-3757eae76c80
+15:58:39.516	127.0.0.1:56154	admin	200		6.65 ms
+15:58:41.738	127.0.0.1:56154	admin	REQUEST	[DELETE] http://localhost:8984/api/user/67b02c67-3cad-43d1-96cc-d88cdee87377
+15:58:41.743	127.0.0.1:56154	admin	200		5.67 ms
+15:58:43.330	127.0.0.1:56154	admin	REQUEST	[DELETE] http://localhost:8984/api/user/2380af41-55a9-4569-8973-2de7f480ceb5
+15:58:43.336	127.0.0.1:56154	admin	200		5.85 ms
+15:58:44.909	127.0.0.1:56154	admin	REQUEST	[DELETE] http://localhost:8984/api/user/877cb311-a405-4aeb-8c1e-a4aa796c0342
+15:58:44.915	127.0.0.1:56154	admin	200		5.7 ms
+15:58:46.864	127.0.0.1:56154	admin	REQUEST	[DELETE] http://localhost:8984/api/user/fd150ae3-144c-44bf-aeeb-cd82c33a4d4d
+15:58:46.870	127.0.0.1:56154	admin	200		5.83 ms
+15:58:47.939	127.0.0.1:56154	admin	REQUEST	[GET] http://localhost:8984/
+15:58:47.946	127.0.0.1:56154	admin	200		7.36 ms
+15:58:48.089	127.0.0.1:56154	admin	REQUEST	[GET] http://localhost:8984/views/form
+15:58:48.093	127.0.0.1:56154	admin	200		3.44 ms
+15:58:48.124	127.0.0.1:56154	admin	REQUEST	[GET] http://localhost:8984/api/users
+15:58:48.129	127.0.0.1:56154	admin	200		5.32 ms
+15:58:48.135	127.0.0.1:56154	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:58:48.137	127.0.0.1:56154	admin	404	No function found that matches the request.	2.35 ms
+15:58:56.349	127.0.0.1:56156	admin	REQUEST	[POST] http://localhost:8984/api/user
+15:58:56.355	127.0.0.1:56156	admin	200		6.47 ms
+15:59:01.167	127.0.0.1:56156	admin	REQUEST	[DELETE] http://localhost:8984/api/user/acfe8706-40e2-4856-aeb4-09810d794d5e
+15:59:01.172	127.0.0.1:56156	admin	200		5.46 ms
+16:09:17.599	127.0.0.1:56215	admin	REQUEST	[GET] http://localhost:8984/
+16:09:17.603	127.0.0.1:56215	admin	200		4.58 ms
+16:09:17.792	127.0.0.1:56215	admin	REQUEST	[GET] http://localhost:8984/views/form
+16:09:17.795	127.0.0.1:56215	admin	200		3.68 ms
+16:09:17.847	127.0.0.1:56215	admin	REQUEST	[GET] http://localhost:8984/api/users
+16:09:17.855	127.0.0.1:56215	admin	200		8.36 ms
+16:09:17.876	127.0.0.1:56215	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:09:17.879	127.0.0.1:56215	admin	404	No function found that matches the request.	2.4 ms
+16:09:19.475	127.0.0.1:56215	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:09:19.480	127.0.0.1:56215	admin	200		5.62 ms
+16:09:19.496	127.0.0.1:56215	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:09:19.498	127.0.0.1:56215	admin	404	No function found that matches the request.	1.96 ms
+16:12:20.505	127.0.0.1:56223	admin	REQUEST	[GET] http://localhost:8984/
+16:12:20.511	127.0.0.1:56223	admin	200		5.39 ms
+16:12:20.701	127.0.0.1:56223	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:12:20.704	127.0.0.1:56223	admin	200		3.38 ms
+16:12:20.773	127.0.0.1:56223	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:12:20.776	127.0.0.1:56223	admin	404	No function found that matches the request.	2.95 ms
+16:12:25.633	127.0.0.1:56223	admin	REQUEST	[GET] http://localhost:8984/api/login/undefined/undefined
+16:12:25.634	127.0.0.1:56223	admin	404	No function found that matches the request.	1.94 ms
+16:14:52.366	127.0.0.1:56236	admin	REQUEST	[GET] http://localhost:8984/
+16:14:52.369	127.0.0.1:56236	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 89/3: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	3.65 ms
+16:14:52.487	127.0.0.1:56236	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:14:52.489	127.0.0.1:56236	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 89/3: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	2.29 ms
+16:16:10.246	127.0.0.1:56237	admin	REQUEST	[GET] http://localhost:8984/
+16:16:10.254	127.0.0.1:56237	admin	200		8.24 ms
+16:16:10.450	127.0.0.1:56237	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:16:10.453	127.0.0.1:56237	admin	200		3.51 ms
+16:16:10.520	127.0.0.1:56237	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:16:10.521	127.0.0.1:56237	admin	404	No function found that matches the request.	1.87 ms
+16:16:14.417	127.0.0.1:56237	admin	REQUEST	[GET] http://localhost:8984/api/login/undefined/undefined
+16:16:14.423	127.0.0.1:56237	admin	200		6.03 ms
+16:17:24.256	127.0.0.1:56242	admin	REQUEST	[GET] http://localhost:8984/
+16:17:24.263	127.0.0.1:56242	admin	200		7.28 ms
+16:17:24.446	127.0.0.1:56242	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:17:24.449	127.0.0.1:56242	admin	200		3.4 ms
+16:17:24.515	127.0.0.1:56242	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:17:24.516	127.0.0.1:56242	admin	404	No function found that matches the request.	2.08 ms
+16:17:27.254	127.0.0.1:56242	admin	REQUEST	[GET] http://localhost:8984/api/login/undefined/undefined
+16:17:27.260	127.0.0.1:56242	admin	200		6.05 ms
+16:17:52.121	127.0.0.1:56242	admin	REQUEST	[GET] http://localhost:8984/
+16:17:52.126	127.0.0.1:56242	admin	200		5.18 ms
+16:17:52.309	127.0.0.1:56242	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:17:52.312	127.0.0.1:56242	admin	200		3.34 ms
+16:17:52.390	127.0.0.1:56242	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:17:52.392	127.0.0.1:56242	admin	404	No function found that matches the request.	1.95 ms
+16:18:43.828	127.0.0.1:56249	admin	REQUEST	[GET] http://localhost:8984/
+16:18:43.832	127.0.0.1:56249	admin	200		3.87 ms
+16:18:44.012	127.0.0.1:56249	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:18:44.016	127.0.0.1:56249	admin	200		3.44 ms
+16:18:44.082	127.0.0.1:56249	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:18:44.084	127.0.0.1:56249	admin	404	No function found that matches the request.	2.22 ms
+16:18:56.908	127.0.0.1:56249	admin	REQUEST	[GET] http://localhost:8984/api/login/undefined/undefined
+16:18:56.912	127.0.0.1:56249	admin	200		4.53 ms
+16:19:13.712	127.0.0.1:56249	admin	REQUEST	[GET] http://localhost:8984/api/login/undefined/undefined
+16:19:13.717	127.0.0.1:56249	admin	200		5.24 ms
+16:19:20.278	127.0.0.1:56249	admin	REQUEST	[GET] http://localhost:8984/api/login/undefined/undefined
+16:19:20.283	127.0.0.1:56249	admin	200		4.7 ms
+16:20:23.861	127.0.0.1:56254	admin	REQUEST	[GET] http://localhost:8984/api/login/undefined/undefined
+16:20:23.867	127.0.0.1:56254	admin	200		5.59 ms
+16:20:28.033	127.0.0.1:56254	admin	REQUEST	[GET] http://localhost:8984/api/login/undefined/undefined
+16:20:28.038	127.0.0.1:56254	admin	200		4.79 ms
+16:20:29.681	127.0.0.1:56254	admin	REQUEST	[GET] http://localhost:8984/
+16:20:29.685	127.0.0.1:56254	admin	200		3.97 ms
+16:20:29.913	127.0.0.1:56254	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:20:29.915	127.0.0.1:56254	admin	404	No function found that matches the request.	1.88 ms
+16:21:19.828	127.0.0.1:56265	admin	REQUEST	[GET] http://localhost:8984/
+16:21:19.831	127.0.0.1:56265	admin	200		3.65 ms
+16:21:20.016	127.0.0.1:56265	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:21:20.019	127.0.0.1:56265	admin	200		3.32 ms
+16:21:20.092	127.0.0.1:56265	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:21:20.094	127.0.0.1:56265	admin	404	No function found that matches the request.	2.04 ms
+16:21:24.262	127.0.0.1:56265	admin	REQUEST	[GET] http://localhost:8984/api/login/dsfsas/sadas
+16:21:24.267	127.0.0.1:56265	admin	200		5.19 ms
+16:21:27.591	127.0.0.1:56265	admin	REQUEST	[GET] http://localhost:8984/views/form
+16:21:27.596	127.0.0.1:56265	admin	200		4.51 ms
+16:21:27.618	127.0.0.1:56265	admin	REQUEST	[GET] http://localhost:8984/api/users
+16:21:27.622	127.0.0.1:56269	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:21:27.624	127.0.0.1:56269	admin	404	No function found that matches the request.	1.83 ms
+16:21:27.624	127.0.0.1:56265	admin	200		6.49 ms
+16:21:36.474	127.0.0.1:56265	admin	REQUEST	[POST] http://localhost:8984/api/user
+16:21:36.480	127.0.0.1:56265	admin	200		6.89 ms
+16:21:38.200	127.0.0.1:56265	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:21:38.202	127.0.0.1:56265	admin	404	No function found that matches the request.	2.19 ms
+16:21:43.031	127.0.0.1:56265	admin	REQUEST	[GET] http://localhost:8984/api/login/Max/pw
+16:21:43.040	127.0.0.1:56265	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 93/88: [FORG0001] Invalid xs:double cast: 0a634fbd-ecbf-439a-a82e-b2c3aaa2f8c2aa5oZx6prwwQYyuOV2B/No/6v+U=Max34. Stack Trace: - /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 84/12	8.53 ms
+16:22:13.694	127.0.0.1:56270	admin	REQUEST	[GET] http://localhost:8984/
+16:22:13.698	127.0.0.1:56270	admin	200		4.66 ms
+16:22:13.878	127.0.0.1:56270	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:22:13.882	127.0.0.1:56270	admin	200		3.42 ms
+16:22:13.953	127.0.0.1:56270	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:22:13.955	127.0.0.1:56270	admin	404	No function found that matches the request.	1.88 ms
+16:22:18.469	127.0.0.1:56270	admin	REQUEST	[GET] http://localhost:8984/api/login/Max/pw
+16:22:18.478	127.0.0.1:56270	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 93/88: [FORG0001] Invalid xs:double cast: 0a634fbd-ecbf-439a-a82e-b2c3aaa2f8c2aa5oZx6prwwQYyuOV2B/No/6v+U=Max34. Stack Trace: - /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 84/12	8.59 ms
+16:23:00.329	127.0.0.1:56277	admin	REQUEST	[GET] http://localhost:8984/
+16:23:00.337	127.0.0.1:56277	admin	200		7.91 ms
+16:23:00.519	127.0.0.1:56277	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:23:00.522	127.0.0.1:56277	admin	200		3.27 ms
+16:23:00.593	127.0.0.1:56277	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:23:00.595	127.0.0.1:56277	admin	404	No function found that matches the request.	2.08 ms
+16:23:04.939	127.0.0.1:56277	admin	REQUEST	[GET] http://localhost:8984/api/login/Max/pw
+16:23:04.945	127.0.0.1:56277	admin	200		6.61 ms
+16:24:09.029	127.0.0.1:56286	admin	REQUEST	[GET] http://localhost:8984/
+16:24:09.035	127.0.0.1:56286	admin	200		6.51 ms
+16:24:09.216	127.0.0.1:56286	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:24:09.219	127.0.0.1:56286	admin	200		3.35 ms
+16:24:09.291	127.0.0.1:56286	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:24:09.294	127.0.0.1:56286	admin	404	No function found that matches the request.	3.15 ms
+16:24:11.707	127.0.0.1:56286	admin	REQUEST	[GET] http://localhost:8984/api/login/Max/pw
+16:24:11.713	127.0.0.1:56286	admin	200		5.59 ms
+16:29:34.575	127.0.0.1:56301	admin	REQUEST	[GET] http://localhost:8984/
+16:29:34.585	127.0.0.1:56301	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 113/39: [XPST0008] Undefined variable $password.	9.64 ms
+16:29:34.707	127.0.0.1:56301	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:29:34.710	127.0.0.1:56301	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 113/39: [XPST0008] Undefined variable $password.	3.17 ms
+16:32:47.377	127.0.0.1:56303	admin	REQUEST	[GET] http://localhost:8984/
+16:32:47.381	127.0.0.1:56303	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 113/39: [XPST0008] Undefined variable $password.	4.39 ms
+16:32:47.498	127.0.0.1:56303	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:32:47.501	127.0.0.1:56303	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 113/39: [XPST0008] Undefined variable $password.	2.97 ms
+16:32:57.369	127.0.0.1:56303	admin	REQUEST	[GET] http://localhost:8984/
+16:32:57.377	127.0.0.1:56303	admin	200		8.3 ms
+16:32:57.569	127.0.0.1:56303	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:32:57.573	127.0.0.1:56303	admin	200		4.72 ms
+16:32:57.649	127.0.0.1:56303	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:32:57.651	127.0.0.1:56303	admin	404	No function found that matches the request.	1.86 ms
+16:34:01.948	127.0.0.1:56315	admin	REQUEST	[GET] http://localhost:8984/
+16:34:01.952	127.0.0.1:56315	admin	200		3.97 ms
+16:34:02.137	127.0.0.1:56315	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:34:02.140	127.0.0.1:56315	admin	200		3.39 ms
+16:34:02.195	127.0.0.1:56315	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:34:02.202	127.0.0.1:56315	admin	200		7.24 ms
+16:34:02.216	127.0.0.1:56315	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:34:02.219	127.0.0.1:56315	admin	404	No function found that matches the request.	2.77 ms
+16:34:13.245	127.0.0.1:56315	admin	REQUEST	[GET] http://localhost:8984/
+16:34:13.252	127.0.0.1:56315	admin	200		7.17 ms
+16:34:13.470	127.0.0.1:56315	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:34:13.473	127.0.0.1:56315	admin	200		3.34 ms
+16:34:13.547	127.0.0.1:56315	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:34:13.554	127.0.0.1:56315	admin	200		7.44 ms
+16:34:13.572	127.0.0.1:56315	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:34:13.574	127.0.0.1:56315	admin	404	No function found that matches the request.	2.16 ms
+16:35:40.734	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/
+16:35:40.745	127.0.0.1:56322	admin	200		12.48 ms
+16:35:40.997	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:35:40.999	127.0.0.1:56322	admin	404	No function found that matches the request.	2.16 ms
+16:35:55.853	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/
+16:35:55.858	127.0.0.1:56322	admin	200		5.33 ms
+16:35:56.082	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:35:56.087	127.0.0.1:56322	admin	200		5.16 ms
+16:35:56.173	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:35:56.178	127.0.0.1:56322	admin	200		5.32 ms
+16:35:56.194	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:35:56.197	127.0.0.1:56322	admin	404	No function found that matches the request.	2.46 ms
+16:36:10.277	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/
+16:36:10.282	127.0.0.1:56322	admin	200		4.78 ms
+16:36:10.499	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:36:10.505	127.0.0.1:56322	admin	200		6.07 ms
+16:36:10.540	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:36:10.546	127.0.0.1:56322	admin	200		6.4 ms
+16:36:10.563	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:36:10.567	127.0.0.1:56322	admin	404	No function found that matches the request.	3.77 ms
+16:36:38.569	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/
+16:36:38.577	127.0.0.1:56322	admin	200		8.07 ms
+16:36:38.810	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:36:38.814	127.0.0.1:56322	admin	200		3.78 ms
+16:36:38.892	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:36:38.898	127.0.0.1:56322	admin	400	[BXJS0002] JSON serialization: Element <json> has invalid attribute "boolean".	6.34 ms
+16:36:38.916	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:36:38.919	127.0.0.1:56322	admin	404	No function found that matches the request.	3.17 ms
+16:36:49.591	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/
+16:36:49.599	127.0.0.1:56322	admin	200		8.59 ms
+16:36:49.826	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:36:49.829	127.0.0.1:56322	admin	200		3.86 ms
+16:36:49.914	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:36:49.921	127.0.0.1:56322	admin	200		7.01 ms
+16:36:49.936	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:36:49.939	127.0.0.1:56322	admin	404	No function found that matches the request.	3.22 ms
+16:36:57.262	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/api/login/Max/pw
+16:36:57.273	127.0.0.1:56322	admin	200		11.18 ms
+16:37:15.172	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/
+16:37:15.177	127.0.0.1:56322	admin	200		5.26 ms
+16:37:15.365	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:37:15.369	127.0.0.1:56322	admin	200		3.58 ms
+16:37:15.449	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:37:15.455	127.0.0.1:56322	admin	200		6.33 ms
+16:37:15.470	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:37:15.472	127.0.0.1:56322	admin	404	No function found that matches the request.	2.19 ms
+16:37:17.190	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/
+16:37:17.195	127.0.0.1:56322	admin	200		5.47 ms
+16:37:17.422	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:37:17.426	127.0.0.1:56322	admin	200		3.77 ms
+16:37:17.510	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:37:17.515	127.0.0.1:56322	admin	200		5.38 ms
+16:37:17.533	127.0.0.1:56322	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:37:17.535	127.0.0.1:56322	admin	404	No function found that matches the request.	2.17 ms
+16:37:56.285	127.0.0.1:56329	admin	REQUEST	[GET] http://localhost:8984/
+16:37:56.290	127.0.0.1:56329	admin	200		5.04 ms
+16:37:56.477	127.0.0.1:56329	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:37:56.480	127.0.0.1:56329	admin	200		3.59 ms
+16:37:56.522	127.0.0.1:56329	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:37:56.528	127.0.0.1:56329	admin	200		5.97 ms
+16:37:56.545	127.0.0.1:56329	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:37:56.548	127.0.0.1:56329	admin	404	No function found that matches the request.	3.29 ms
+16:38:49.320	127.0.0.1:56354	admin	REQUEST	[GET] http://localhost:8984/
+16:38:49.325	127.0.0.1:56354	admin	200		5.73 ms
+16:38:49.508	127.0.0.1:56354	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:38:49.512	127.0.0.1:56354	admin	200		4.03 ms
+16:38:49.561	127.0.0.1:56354	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:38:49.567	127.0.0.1:56354	admin	200		6.68 ms
+16:38:49.586	127.0.0.1:56354	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:38:49.588	127.0.0.1:56354	admin	404	No function found that matches the request.	2.17 ms
+16:41:03.275	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/
+16:41:03.279	127.0.0.1:56359	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 131/20: [XPST0017] Java function 'org.basex.modules.Session:delete' not found.	3.77 ms
+16:41:03.400	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:41:03.403	127.0.0.1:56359	admin	400	Stopped at /home/dirk/git/basex-restxq-skeleton/server/api.xqm, 131/20: [XPST0017] Java function 'org.basex.modules.Session:delete' not found.	3.44 ms
+16:41:23.478	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/
+16:41:23.486	127.0.0.1:56359	admin	200		8.95 ms
+16:41:23.667	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:41:23.670	127.0.0.1:56359	admin	200		3.71 ms
+16:41:23.716	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:41:23.725	127.0.0.1:56359	admin	200		8.46 ms
+16:41:23.744	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:41:23.746	127.0.0.1:56359	admin	404	No function found that matches the request.	2.78 ms
+16:41:27.168	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/api/logout/
+16:41:27.174	127.0.0.1:56359	admin	200		6.27 ms
+16:41:44.646	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/
+16:41:44.651	127.0.0.1:56359	admin	200		4.96 ms
+16:41:44.830	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:41:44.833	127.0.0.1:56359	admin	200		3.65 ms
+16:41:44.879	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:41:44.885	127.0.0.1:56359	admin	200		5.65 ms
+16:41:44.911	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:41:44.913	127.0.0.1:56359	admin	404	No function found that matches the request.	2.06 ms
+16:41:58.189	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/
+16:41:58.195	127.0.0.1:56359	admin	200		6.66 ms
+16:41:58.381	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:41:58.385	127.0.0.1:56359	admin	200		3.92 ms
+16:41:58.433	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:41:58.452	127.0.0.1:56359	admin	200		18.99 ms
+16:41:58.461	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:41:58.463	127.0.0.1:56359	admin	404	No function found that matches the request.	2.3 ms
+16:42:03.891	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/api/login/Max/pw
+16:42:03.898	127.0.0.1:56359	admin	200		7.14 ms
+16:42:06.774	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/
+16:42:06.785	127.0.0.1:56359	admin	200		11.01 ms
+16:42:06.962	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:06.965	127.0.0.1:56359	admin	200		3.3 ms
+16:42:07.016	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:07.023	127.0.0.1:56359	admin	200		7.46 ms
+16:42:07.044	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:07.046	127.0.0.1:56359	admin	404	No function found that matches the request.	1.88 ms
+16:42:07.643	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/
+16:42:07.647	127.0.0.1:56359	admin	200		4.13 ms
+16:42:07.825	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:07.828	127.0.0.1:56359	admin	200		3.32 ms
+16:42:07.881	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:07.886	127.0.0.1:56359	admin	200		5.47 ms
+16:42:07.909	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:07.911	127.0.0.1:56359	admin	404	No function found that matches the request.	1.86 ms
+16:42:08.386	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/
+16:42:08.390	127.0.0.1:56359	admin	200		3.84 ms
+16:42:08.565	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:08.569	127.0.0.1:56359	admin	200		3.73 ms
+16:42:08.613	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:08.619	127.0.0.1:56359	admin	200		5.75 ms
+16:42:08.637	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:08.640	127.0.0.1:56359	admin	404	No function found that matches the request.	3.07 ms
+16:42:09.013	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/
+16:42:09.017	127.0.0.1:56359	admin	200		3.82 ms
+16:42:09.225	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:09.228	127.0.0.1:56359	admin	200		3.31 ms
+16:42:09.270	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:09.275	127.0.0.1:56359	admin	200		5.01 ms
+16:42:09.294	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:09.296	127.0.0.1:56362	admin	404	No function found that matches the request.	2.08 ms
+16:42:09.619	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/
+16:42:09.622	127.0.0.1:56362	admin	200		3.37 ms
+16:42:09.806	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:09.809	127.0.0.1:56362	admin	200		3.13 ms
+16:42:09.884	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:09.889	127.0.0.1:56362	admin	200		5.42 ms
+16:42:09.908	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:09.910	127.0.0.1:56362	admin	404	No function found that matches the request.	1.9 ms
+16:42:10.224	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/
+16:42:10.227	127.0.0.1:56362	admin	200		3.56 ms
+16:42:10.402	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:10.405	127.0.0.1:56362	admin	200		3.56 ms
+16:42:10.483	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:10.489	127.0.0.1:56362	admin	200		6.8 ms
+16:42:10.506	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:10.509	127.0.0.1:56362	admin	404	No function found that matches the request.	2.52 ms
+16:42:10.789	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/
+16:42:10.793	127.0.0.1:56362	admin	200		3.61 ms
+16:42:10.973	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:10.976	127.0.0.1:56362	admin	200		3.07 ms
+16:42:11.050	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:11.055	127.0.0.1:56362	admin	200		5.56 ms
+16:42:11.077	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:11.079	127.0.0.1:56362	admin	404	No function found that matches the request.	2.14 ms
+16:42:11.314	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/
+16:42:11.317	127.0.0.1:56362	admin	200		3.44 ms
+16:42:11.496	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:11.499	127.0.0.1:56362	admin	200		3.27 ms
+16:42:11.545	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:11.550	127.0.0.1:56362	admin	200		4.86 ms
+16:42:11.604	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:11.606	127.0.0.1:56362	admin	404	No function found that matches the request.	2.53 ms
+16:42:11.816	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/
+16:42:11.819	127.0.0.1:56362	admin	200		3.07 ms
+16:42:12.000	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:12.003	127.0.0.1:56362	admin	200		3.1 ms
+16:42:12.047	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:12.053	127.0.0.1:56362	admin	200		6.27 ms
+16:42:12.074	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:12.077	127.0.0.1:56362	admin	404	No function found that matches the request.	2.93 ms
+16:42:12.080	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/
+16:42:12.085	127.0.0.1:56362	admin	200		4.59 ms
+16:42:12.289	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:12.292	127.0.0.1:56362	admin	200		3.22 ms
+16:42:12.340	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:12.346	127.0.0.1:56362	admin	200		5.23 ms
+16:42:12.372	127.0.0.1:56360	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:12.373	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/
+16:42:12.375	127.0.0.1:56360	admin	404	No function found that matches the request.	2.67 ms
+16:42:12.378	127.0.0.1:56362	admin	200		5.45 ms
+16:42:12.605	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:12.608	127.0.0.1:56362	admin	200		2.86 ms
+16:42:12.651	127.0.0.1:56362	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:12.654	127.0.0.1:56359	admin	REQUEST	[GET] http://localhost:8984/
+16:42:12.657	127.0.0.1:56360	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:12.657	127.0.0.1:56362	admin	200		6.09 ms
+16:42:12.658	127.0.0.1:56359	admin	200		4.1 ms
+16:42:12.659	127.0.0.1:56360	admin	404	No function found that matches the request.	2.2 ms
+16:42:12.831	127.0.0.1:56360	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:12.836	127.0.0.1:56360	admin	200		4.58 ms
+16:42:12.879	127.0.0.1:56360	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:12.885	127.0.0.1:56360	admin	200		6.54 ms
+16:42:12.906	127.0.0.1:56360	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:12.908	127.0.0.1:56360	admin	404	No function found that matches the request.	2.92 ms
+16:42:14.077	127.0.0.1:56360	admin	REQUEST	[GET] http://localhost:8984/
+16:42:14.082	127.0.0.1:56360	admin	200		4.86 ms
+16:42:14.258	127.0.0.1:56360	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:14.260	127.0.0.1:56360	admin	200		2.95 ms
+16:42:14.303	127.0.0.1:56360	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:14.308	127.0.0.1:56360	admin	200		5.87 ms
+16:42:14.328	127.0.0.1:56360	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:14.331	127.0.0.1:56360	admin	404	No function found that matches the request.	2.95 ms
+16:42:14.763	127.0.0.1:56360	admin	REQUEST	[GET] http://localhost:8984/
+16:42:14.766	127.0.0.1:56360	admin	200		3.36 ms
+16:42:14.971	127.0.0.1:56360	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:14.974	127.0.0.1:56360	admin	200		3.04 ms
+16:42:15.017	127.0.0.1:56360	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:15.021	127.0.0.1:56360	admin	200		4.66 ms
+16:42:15.041	127.0.0.1:56363	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:15.044	127.0.0.1:56363	admin	404	No function found that matches the request.	2.98 ms
+16:42:16.438	127.0.0.1:56363	admin	REQUEST	[GET] http://localhost:8984/api/logout/
+16:42:16.444	127.0.0.1:56363	admin	200		5.27 ms
+16:42:17.872	127.0.0.1:56363	admin	REQUEST	[GET] http://localhost:8984/
+16:42:17.877	127.0.0.1:56363	admin	200		5.3 ms
+16:42:18.056	127.0.0.1:56363	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:18.059	127.0.0.1:56363	admin	200		3.01 ms
+16:42:18.105	127.0.0.1:56363	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:18.111	127.0.0.1:56363	admin	200		5.36 ms
+16:42:18.132	127.0.0.1:56363	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:18.134	127.0.0.1:56363	admin	404	No function found that matches the request.	2.39 ms
+16:42:18.563	127.0.0.1:56363	admin	REQUEST	[GET] http://localhost:8984/
+16:42:18.566	127.0.0.1:56363	admin	200		3.13 ms
+16:42:18.780	127.0.0.1:56363	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:18.783	127.0.0.1:56363	admin	200		2.96 ms
+16:42:18.826	127.0.0.1:56363	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:18.833	127.0.0.1:56363	admin	200		7.72 ms
+16:42:18.853	127.0.0.1:56361	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:18.855	127.0.0.1:56361	admin	404	No function found that matches the request.	2.09 ms
+16:42:19.161	127.0.0.1:56361	admin	REQUEST	[GET] http://localhost:8984/
+16:42:19.164	127.0.0.1:56361	admin	200		3.23 ms
+16:42:19.342	127.0.0.1:56361	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:42:19.345	127.0.0.1:56361	admin	200		3.16 ms
+16:42:19.421	127.0.0.1:56361	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:42:19.425	127.0.0.1:56361	admin	200		4.82 ms
+16:42:19.443	127.0.0.1:56361	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:42:19.446	127.0.0.1:56361	admin	404	No function found that matches the request.	2.28 ms
+16:42:23.557	127.0.0.1:56361	admin	REQUEST	[GET] http://localhost:8984/api/login/Max/saddsasd
+16:42:23.563	127.0.0.1:56361	admin	200		5.87 ms
+16:43:22.235	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/
+16:43:22.239	127.0.0.1:56367	admin	200		4.87 ms
+16:43:22.429	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:43:22.432	127.0.0.1:56367	admin	200		2.85 ms
+16:43:22.480	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:43:22.484	127.0.0.1:56367	admin	200		4.52 ms
+16:43:22.504	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:43:22.506	127.0.0.1:56367	admin	404	No function found that matches the request.	2.13 ms
+16:43:47.147	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/
+16:43:47.151	127.0.0.1:56367	admin	200		4.21 ms
+16:43:47.337	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:43:47.341	127.0.0.1:56367	admin	200		4.08 ms
+16:43:47.409	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:43:47.415	127.0.0.1:56367	admin	200		6.26 ms
+16:43:47.444	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:43:47.447	127.0.0.1:56367	admin	404	No function found that matches the request.	2.85 ms
+16:43:52.406	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/api/login/Max/pw
+16:43:52.411	127.0.0.1:56367	admin	200		5.43 ms
+16:43:53.796	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/
+16:43:53.802	127.0.0.1:56367	admin	200		6.17 ms
+16:43:53.994	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:43:53.998	127.0.0.1:56367	admin	200		4.24 ms
+16:43:54.052	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:43:54.058	127.0.0.1:56367	admin	200		6.27 ms
+16:43:54.086	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:43:54.088	127.0.0.1:56367	admin	404	No function found that matches the request.	2.82 ms
+16:43:54.399	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/
+16:43:54.402	127.0.0.1:56367	admin	200		3.03 ms
+16:43:54.598	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/views/user
+16:43:54.603	127.0.0.1:56367	admin	200		5.73 ms
+16:43:54.680	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:43:54.686	127.0.0.1:56367	admin	200		6.2 ms
+16:43:54.706	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:43:54.708	127.0.0.1:56367	admin	404	No function found that matches the request.	1.83 ms
+16:43:56.925	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/views/welcome
+16:43:56.929	127.0.0.1:56367	admin	200		4.32 ms
+16:43:56.947	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:43:56.949	127.0.0.1:56367	admin	404	No function found that matches the request.	2.06 ms
+16:43:58.142	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/views/system
+16:43:58.256	127.0.0.1:56368	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:43:58.258	127.0.0.1:56368	admin	404	No function found that matches the request.	1.73 ms
+16:43:58.269	127.0.0.1:56367	admin	200		126.87 ms
+16:43:59.054	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/views/form
+16:43:59.057	127.0.0.1:56367	admin	200		2.98 ms
+16:43:59.082	127.0.0.1:56367	admin	REQUEST	[GET] http://localhost:8984/api/users
+16:43:59.088	127.0.0.1:56368	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:43:59.090	127.0.0.1:56367	admin	200		7.3 ms
+16:43:59.091	127.0.0.1:56368	admin	404	No function found that matches the request.	2.99 ms
+16:43:59.676	127.0.0.1:56368	admin	REQUEST	[GET] http://localhost:8984/api/is-loggedin
+16:43:59.680	127.0.0.1:56368	admin	200		4.46 ms
+16:43:59.688	127.0.0.1:56368	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:43:59.689	127.0.0.1:56368	admin	404	No function found that matches the request.	1.8 ms
