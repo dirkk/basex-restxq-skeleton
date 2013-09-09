@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+  version="2.5">
+
+  <display-name>BaseX RestXQ Skeleton</display-name>
+  <description>BaseX RestXQ Skeleton</description>
+
+  <!-- The following parameters may also be passed on as system properties: -->
+
+  <!-- Login data: by default, no user and password is specified, and the
+       credentials must be passed on by the client. Please check by yourself
+       if it is safe to store your credentials in this file. -->
+  <context-param>
+    <param-name>org.basex.user</param-name>
+    <param-value>admin</param-value>
+  </context-param>
+  <context-param>
+    <param-name>org.basex.password</param-name>
+    <param-value>admin</param-value>
+  </context-param>
+
+  <!-- All database main options, which are usually stored in the .basex
+       configuration file (DBPATH, DEBUG, etc.), can be specified as well by
+       prefixing the key with "org.basex.". If an option references a relative
+       path, it will be prefixed with the servlet root path.
+  -->
+  <context-param>
+    <param-name>org.basex.dbpath</param-name>
+    <param-value>WEB-INF/data</param-value>
+  </context-param>
+  <context-param>
+    <param-name>org.basex.restxqpath</param-name>
+    <param-value>.</param-value>
+  </context-param>
+  <context-param>
+    <param-name>org.basex.repopath</param-name>
+    <param-value>WEB-INF/repo</param-value>
+  </context-param>
+  <context-param>
+    <param-name>org.basex.lang</param-name>
+    <param-value>English</param-value>
+  </context-param>
+  <context-param>
+    <param-name>org.basex.debug</param-name>
+    <param-value>false</param-value>
+  </context-param>
+
+  <!-- Global session listener -->
+  <listener>
+    <listener-class>org.basex.http.SessionListener</listener-class>
+  </listener>
+
+  <!--  RESTXQ Service (can be deactivated by removing this entry) -->
+  <servlet>
+    <servlet-name>RESTXQ</servlet-name>
+    <servlet-class>org.basex.http.restxq.RestXqServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RESTXQ</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+
+  <!-- Mapping for static resources (may be restricted to a sub path) -->
+  <servlet>
+    <servlet-name>default</servlet-name>
+    <init-param>
+      <param-name>relativeResourceBase</param-name>
+      <param-value>/app</param-value>
+    </init-param>
+    <init-param>
+      <param-name>useFileMappedBuffer</param-name>
+      <param-value>false</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/static/*</url-pattern>
+  </servlet-mapping>
+
+  <!-- compression="on" compressionMinSize="2048" noCompressionUserAgents="gozilla, traviata" compressableMimeType="text/html,text/xml,text/json,text/javascript,text/css,text/plain,application/javascript,application/xml,application/xml+xhtml" to enable tomcat zip compression. -->
+
+  <filter>
+    <filter-name>GzipFilter</filter-name>
+    <filter-class>org.eclipse.jetty.servlets.GzipFilter</filter-class>
+    <init-param>
+      <param-name>mimeTypes</param-name>
+      <param-value>text/html,text/plain,text/xml,application/*,application/atom+xml,application/xml,application/xhtml+xml,text/css,application/javascript,image/svg+xml</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>GzipFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <servlet>
+    <servlet-name>default</servlet-name>
+    <servlet-class>org.eclipse.jetty.servlet.DefaultServlet</servlet-class>
+    <init-param>
+      <param-name>aliases</param-name>
+      <param-value>true</param-value>
+    </init-param>
+  </servlet>
+
+</web-app>
