@@ -1,8 +1,5 @@
 module namespace _ = 'http://basex.org/app/skeleton';
 
-(:~
- : Main entry page.
- :)
 declare
   %restxq:GET
   %restxq:path("/")
