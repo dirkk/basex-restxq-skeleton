@@ -2,8 +2,15 @@ This is a skeleton project for a BaseX powered RestXQ project with client-side A
 
 ## Prerequisites
 
-* Maven
+* Maven 3
 * Java 6
+* BaseX 7.7
+
+## Run once to create required databases
+
+    cd WEB-INF/
+    touch .basex
+    basex init.xq
 
 ### To run:
 
