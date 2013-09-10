@@ -9,7 +9,6 @@ This is a skeleton project for a BaseX powered RestXQ project with client-side A
 ## Run once to create required databases
 
     cd WEB-INF/
-    touch .basex
     basex init.xq
 
 ### To run:
