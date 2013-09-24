@@ -32,10 +32,6 @@
     <param-value>WEB-INF/data</param-value>
   </context-param>
   <context-param>
-    <param-name>org.basex.restxqpath</param-name>
-    <param-value>.</param-value>
-  </context-param>
-  <context-param>
     <param-name>org.basex.repopath</param-name>
     <param-value>WEB-INF/repo</param-value>
   </context-param>
@@ -83,6 +79,7 @@
 
   <!-- compression="on" compressionMinSize="2048" noCompressionUserAgents="gozilla, traviata" compressableMimeType="text/html,text/xml,text/json,text/javascript,text/css,text/plain,application/javascript,application/xml,application/xml+xhtml" to enable tomcat zip compression. -->
 
+<!--
   <filter>
     <filter-name>GzipFilter</filter-name>
     <filter-class>org.eclipse.jetty.servlets.GzipFilter</filter-class>
@@ -95,6 +92,7 @@
     <filter-name>GzipFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+-->
 
   <servlet>
     <servlet-name>default</servlet-name>

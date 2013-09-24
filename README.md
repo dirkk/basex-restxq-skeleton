@@ -2,18 +2,23 @@ This is a skeleton project for a BaseX powered RestXQ project with client-side A
 
 ## Prerequisites
 
-* Maven 3
 * Java 6
 * BaseX 7.7
 
-## Run once to create required databases
+## Deploy using standalone version
 
-    cd WEB-INF/
-    basex init.xq
+To use the standalone version and a encapsulated Jetty container, please run the `basexskeleton` script.
 
-### To run:
+    bin/basexskeleton
+
+
+## Deploy using Maven
+
+If you want to deploy using Maven, you will at least need Maven 3. The you can simply run
 
     mvn jetty:run
+
+## Test it
 
 Access the application with your web browser at
 
